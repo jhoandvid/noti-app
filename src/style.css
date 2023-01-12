@@ -78,9 +78,6 @@ body::-webkit-scrollbar-thumb {
     font-size: 18px;
 }
 
-
-
-
 .container{
     margin: 30px 10px 0px 10px;
     display: flex;
@@ -94,7 +91,7 @@ body::-webkit-scrollbar-thumb {
     position: fixed;
     width: 26%;
     height: 100%;
-    top: 10%;
+    top: 20%;
     left: 1%;
     overflow: auto;
 }
@@ -110,7 +107,7 @@ body::-webkit-scrollbar-thumb {
     width: 26%;
     height: 100%;
     right: 10px;
-    top: 10%;
+    top: 20%;
     overflow: auto;
 }
 
@@ -160,4 +157,10 @@ body::-webkit-scrollbar-thumb {
     cursor: pointer;
     background-color: rgb(77, 74, 74);
     border-radius: 50%;
+}
+
+.encabezado{
+    position: fixed;
+    top: 70px;
+
 }
